@@ -1,7 +1,11 @@
-const start = document.getElementById("start");
-const outputArea = document.getElementById("outputArea");
+function handleStartClick() {
+    console.log("pressed");
+    const output = document.getElementById("outputArea");
+    output.textContent = "Welcome to Erentram...";
+}
 
-start.addEventListener("click", function() {
-  console.log("StartGame");
-  outputArea.textContent = "Welcome to Erentram...";
-});
+const startButton = document.getElementById("startButton");
+
+startButton.addEventListener("click", handleStartClick);
+
+
