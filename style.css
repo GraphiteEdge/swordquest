@@ -1,0 +1,36 @@
+body {
+  margin:0;
+  background:black;
+  color:#00ffcc;
+  font-family:monospace;
+}
+
+#game {
+  display:flex;
+}
+
+#hud, #quest {
+  width:250px;
+  padding:10px;
+}
+
+#hud {
+  border-right:2px solid #00ffcc;
+}
+
+#quest {
+  border-left:2px solid #00ffcc;
+}
+
+#main {
+  flex:1;
+  padding:15px;
+}
+
+button {
+  background:black;
+  color:#00ffcc;
+  border:1px solid #00ffcc;
+  margin:3px;
+  cursor:pointer;
+}
